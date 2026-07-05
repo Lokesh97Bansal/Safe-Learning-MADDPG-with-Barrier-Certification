@@ -2,9 +2,9 @@
 
 **MADDPG agents wrapped with control barrier functions so battery-driven agents never enter unsafe, unrecoverable states during long-duration surveillance.**
 
-▶ [**Watch the demo video**](./video.mp4) · 📄 [**Project report (PDF)**](./Report.pdf) · 🎞 [**Slides (PPTX)**](./PPT.pptx)
+📄 [**Report — view in browser**](https://docs.google.com/viewer?url=https%3A%2F%2Fraw.githubusercontent.com%2FLokesh97Bansal%2FSafe-Learning-MADDPG-with-Barrier-Certification%2Fmain%2FReport.pdf) · 🎞 [**Slides — view in browser**](https://docs.google.com/viewer?url=https%3A%2F%2Fraw.githubusercontent.com%2FLokesh97Bansal%2FSafe-Learning-MADDPG-with-Barrier-Certification%2Fmain%2FSlides.pdf) · 🎬 [Full-quality video (MP4)](./video.mp4) · [PPTX](./PPT.pptx)
 
-![Result](./featured.PNG)
+![Demo](./preview.gif)
 
 ## Overview
 A reinforcement-learning agent tasked with long-duration ground surveillance can learn policies that drive it into states it cannot recover from — the canonical example being **battery die-out** far from a charging point. This project combines **multi-agent deep deterministic policy gradient (MADDPG)** with **control barrier functions (CBFs)** so that exploration and the learned policy are both constrained away from unsafe, unrecoverable regions of the state space, while surveillance performance is preserved.
